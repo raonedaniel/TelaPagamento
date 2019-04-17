@@ -23,6 +23,12 @@
         android:layout_width="30dp"
         android:layout_height="30dp" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="left">
+
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
@@ -42,6 +48,7 @@
         >
 
     </Spinner>
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textView6"
@@ -63,6 +70,12 @@
         android:layout_width="60dp"
         android:layout_height="60dp" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="left">
+
 
     <TextView
         android:id="@+id/textView7"
@@ -83,6 +96,7 @@
         >
 
     </Spinner>
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textView8"
